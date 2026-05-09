@@ -1,0 +1,24 @@
+{
+  "name": "yukimu",
+  "version": "1.0.0",
+  "description": "A powerful Lavalink v4 wrapper for Discord bots — supports YouTube, Spotify, Deezer, Apple Music, JioSaavn, Tidal, SoundCloud and more",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["lavalink", "discord", "music", "bot", "audio", "spotify", "youtube"],
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
